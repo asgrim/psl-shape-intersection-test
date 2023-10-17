@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php": "8.2.*",
+        "vimeo/psalm": "^5.15",
+        "php-standard-library/psalm-plugin": "^2.2",
+        "azjezz/psl": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "PslShapeIntersectionTest\\": "src/"
+        }
+    }
+}
