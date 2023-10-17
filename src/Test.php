@@ -15,10 +15,10 @@ final class Test
         $type = T\intersection(
             T\shape([
                 'key1' => T\string(),
-            ]),
+            ], true),
             T\shape([
                 'key2' => T\int(),
-            ])
+            ], true)
         );
         /** @psalm-trace $type */
         $coerced = $type->coerce($unknownType);
